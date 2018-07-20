@@ -191,6 +191,11 @@
 <http://tcftest.org/schema/FlightManifest> <http://www.w3.org/2000/01/rdf-schema#comment> "TBD" .
 <http://tcftest.org/schema/FlightManifest> <http://www.w3.org/2000/01/rdf-schema#label> "Flight Manifest" .
 <http://tcftest.org/schema/FlightManifest> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://tcftest.org/schema/LogisticsObject> .
+<http://tcftest.org/schema/FlyingTrainEngine> <http://purl.org/dc/terms/modified> "2018-07-20T15:39:40.289Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/FlyingTrainEngine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcftest.org/schema/FlyingTrainEngine> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents a Flying Train Engine" .
+<http://tcftest.org/schema/FlyingTrainEngine> <http://www.w3.org/2000/01/rdf-schema#description> "Class for Flying Train Engine" .
+<http://tcftest.org/schema/FlyingTrainEngine> <http://www.w3.org/2000/01/rdf-schema#label> "FlyingTrainEngine" .
 <http://tcftest.org/schema/footCandles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://tcftest.org/schema/footCandles> <http://www.w3.org/2000/01/rdf-schema#description> "A footcandle reading in submitted as a track update." .
 <http://tcftest.org/schema/footCandles> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/Light> .
@@ -203,6 +208,7 @@
 <http://tcftest.org/schema/forwarder> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/Organization> .
 <http://tcftest.org/schema/grossWeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://tcftest.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#description> "A measure of the gross weight (mass) of these consignments which includes the weight of packaging but which excludes the weight of any transport equipment." .
+<http://tcftest.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/FlyingTrainEngine> .
 <http://tcftest.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/LiamsClass> .
 <http://tcftest.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/Package> .
 <http://tcftest.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/RailroadWaggon> .
