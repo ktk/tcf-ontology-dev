@@ -191,7 +191,7 @@
 <http://tcftest.org/schema/FlightManifest> <http://www.w3.org/2000/01/rdf-schema#comment> "TBD" .
 <http://tcftest.org/schema/FlightManifest> <http://www.w3.org/2000/01/rdf-schema#label> "Flight Manifest" .
 <http://tcftest.org/schema/FlightManifest> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://tcftest.org/schema/LogisticsObject> .
-<http://tcftest.org/schema/FlyingTrainEngine> <http://purl.org/dc/terms/modified> "2018-07-20T15:39:40.289Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/FlyingTrainEngine> <http://purl.org/dc/terms/modified> "2018-07-20T15:41:32.174Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/FlyingTrainEngine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://tcftest.org/schema/FlyingTrainEngine> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents a Flying Train Engine" .
 <http://tcftest.org/schema/FlyingTrainEngine> <http://www.w3.org/2000/01/rdf-schema#description> "Class for Flying Train Engine" .
@@ -400,6 +400,12 @@
 <http://tcftest.org/schema/pressurePsi> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/Pressure> .
 <http://tcftest.org/schema/pressurePsi> <http://www.w3.org/2000/01/rdf-schema#label> "Pressure in PSI" .
 <http://tcftest.org/schema/pressurePsi> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://tcftest.org/schema/propeller> <http://purl.org/dc/terms/modified> "2018-07-20T15:41:32.174Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/propeller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcftest.org/schema/propeller> <http://www.w3.org/2000/01/rdf-schema#comment> "Because everyone needs one" .
+<http://tcftest.org/schema/propeller> <http://www.w3.org/2000/01/rdf-schema#description> "Property for the propeller" .
+<http://tcftest.org/schema/propeller> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/FlyingTrainEngine> .
+<http://tcftest.org/schema/propeller> <http://www.w3.org/2000/01/rdf-schema#label> "propeller" .
 <http://tcftest.org/schema/pta-Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://tcftest.org/schema/pta-Location> <http://www.w3.org/2000/01/rdf-schema#description> "The Date/Time when a vessel is planned to arrive at a specified location, as per port section standards." .
 <http://tcftest.org/schema/pta-Location> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/SeaStatusUpdate> .
