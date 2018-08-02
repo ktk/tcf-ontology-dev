@@ -213,6 +213,7 @@
 <http://tcftest.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/Package> .
 <http://tcftest.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/RailroadWaggon> .
 <http://tcftest.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/ShippersInstruction> .
+<http://tcftest.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/SomeNiceTest> .
 <http://tcftest.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/TestClass> .
 <http://tcftest.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/ThisIsANewClass> .
 <http://tcftest.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#label> "grossWeight" .
@@ -485,6 +486,11 @@
 <http://tcftest.org/schema/size> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/EmptyGood> .
 <http://tcftest.org/schema/size> <http://www.w3.org/2000/01/rdf-schema#label> "size" .
 <http://tcftest.org/schema/size> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://tcftest.org/schema/SomeNiceTest> <http://purl.org/dc/terms/modified> "2018-08-02T07:42:38.047Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/SomeNiceTest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcftest.org/schema/SomeNiceTest> <http://www.w3.org/2000/01/rdf-schema#comment> "Something we need" .
+<http://tcftest.org/schema/SomeNiceTest> <http://www.w3.org/2000/01/rdf-schema#description> "We need that class" .
+<http://tcftest.org/schema/SomeNiceTest> <http://www.w3.org/2000/01/rdf-schema#label> "SomeNiceTest" .
 <http://tcftest.org/schema/Status> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://tcftest.org/schema/status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
