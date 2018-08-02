@@ -1,5 +1,4 @@
 <http://schema.org/geo> <http://schema.org/domainIncludes> <http://tcftest.org/pouch/TrackUpdate> .
-<http://tcftest.org/schema/> <http://purl.org/dc/terms/modified> "2018-08-02T11:38:21.701Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/Accelerometer> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/Accelerometer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://tcftest.org/schema/accelerometer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -87,6 +86,10 @@
 <http://tcftest.org/schema/BendTheSpoon> <http://www.w3.org/2000/01/rdf-schema#comment> "A class for bending the spoon" .
 <http://tcftest.org/schema/BendTheSpoon> <http://www.w3.org/2000/01/rdf-schema#description> "This class should be used on the spoon" .
 <http://tcftest.org/schema/BendTheSpoon> <http://www.w3.org/2000/01/rdf-schema#label> "BendTheSpoon" .
+<http://tcftest.org/schema/billOfLanding> <http://purl.org/dc/terms/modified> "2018-08-02T13:52:32.739Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/billOfLanding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcftest.org/schema/billOfLanding> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/ThisIsANiceClass> .
+<http://tcftest.org/schema/billOfLanding> <http://www.w3.org/2000/01/rdf-schema#label> "billOfLanding" .
 <http://tcftest.org/schema/bluetoothHid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://tcftest.org/schema/bluetoothHid> <http://www.w3.org/2000/01/rdf-schema#description> "bogus property" .
 <http://tcftest.org/schema/bluetoothHid> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/EmptyGood> .
@@ -581,6 +584,11 @@
 <http://tcftest.org/schema/thisIsANewProperty> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/ThisIsANewClass> .
 <http://tcftest.org/schema/thisIsANewProperty> <http://www.w3.org/2000/01/rdf-schema#label> "thisIsANewProperty" .
 <http://tcftest.org/schema/thisIsANewProperty> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://tcftest.org/schema/ThisIsANiceClass> <http://purl.org/dc/terms/modified> "2018-08-02T13:52:32.739Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/ThisIsANiceClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcftest.org/schema/ThisIsANiceClass> <http://www.w3.org/2000/01/rdf-schema#comment> "We want it now" .
+<http://tcftest.org/schema/ThisIsANiceClass> <http://www.w3.org/2000/01/rdf-schema#description> "For whatever reason" .
+<http://tcftest.org/schema/ThisIsANiceClass> <http://www.w3.org/2000/01/rdf-schema#label> "ThisIsANiceClass" .
 <http://tcftest.org/schema/TrackUpdate> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/TrackUpdate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://tcftest.org/schema/TrackUpdate> <http://www.w3.org/2000/01/rdf-schema#comment> "An update on a logistics object of different sensoring data such as location, temperature, humidity, accelerometer, or pressure." .
