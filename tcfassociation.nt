@@ -1,5 +1,4 @@
 <http://schema.org/geo> <http://schema.org/domainIncludes> <http://tcftest.org/pouch/TrackUpdate> .
-<http://tcftest.org/schema/> <http://purl.org/dc/terms/modified> "2018-08-02T11:38:21.701Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/Accelerometer> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/Accelerometer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://tcftest.org/schema/accelerometer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -236,6 +235,11 @@
 <http://tcftest.org/schema/height> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/Package> .
 <http://tcftest.org/schema/height> <http://www.w3.org/2000/01/rdf-schema#label> "Height" .
 <http://tcftest.org/schema/height> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<http://tcftest.org/schema/HelloNewClass> <http://purl.org/dc/terms/modified> "2018-08-03T12:05:45.987Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/HelloNewClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcftest.org/schema/HelloNewClass> <http://www.w3.org/2000/01/rdf-schema#comment> "Please add me" .
+<http://tcftest.org/schema/HelloNewClass> <http://www.w3.org/2000/01/rdf-schema#description> "Power to the people" .
+<http://tcftest.org/schema/HelloNewClass> <http://www.w3.org/2000/01/rdf-schema#label> "HelloNewClass" .
 <http://tcftest.org/schema/Humidity> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://tcftest.org/schema/humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -414,6 +418,10 @@
 <http://tcftest.org/schema/pressurePsi> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/Pressure> .
 <http://tcftest.org/schema/pressurePsi> <http://www.w3.org/2000/01/rdf-schema#label> "Pressure in PSI" .
 <http://tcftest.org/schema/pressurePsi> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://tcftest.org/schema/propeller> <http://purl.org/dc/terms/modified> "2018-08-03T12:05:45.987Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/propeller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcftest.org/schema/propeller> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/HelloNewClass> .
+<http://tcftest.org/schema/propeller> <http://www.w3.org/2000/01/rdf-schema#label> "propeller" .
 <http://tcftest.org/schema/pta-Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://tcftest.org/schema/pta-Location> <http://www.w3.org/2000/01/rdf-schema#description> "The Date/Time when a vessel is planned to arrive at a specified location, as per port section standards." .
 <http://tcftest.org/schema/pta-Location> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/SeaStatusUpdate> .
